@@ -10,13 +10,13 @@ const app = express();
 app.use(bodyParser.json());
 
 //테이블 생성
-db.pool.query(`CREATE TABLE lists(
-    id INTEGER AUTO_INCREMENT,
-    value TEXT,
-    PRIMARY KEY (id)
-)`, (err, results, fileds) => {
-    console.log('results', results);
-})
+// db.pool.query(`CREATE TABLE lists(
+//     id INTEGER AUTO_INCREMENT,
+//     value TEXT,
+//     PRIMARY KEY (id)
+// )`, (err, results, fileds) => {
+//     console.log('results', results);
+// })
 
 //db lists 테이블에 있는 모든 데이터를 프론트 서버에 보내주기
 app.get('/api/values', (req, res) => {
