@@ -1,3 +1,4 @@
+#### 자세한건 위의 7~9강 참조
 ![image](https://user-images.githubusercontent.com/67853463/103171115-f6e8b800-488c-11eb-92a4-e9a5ec4976d5.png)
 
 ```
